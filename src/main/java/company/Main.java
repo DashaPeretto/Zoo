@@ -63,12 +63,13 @@ int number;
                     tiger.size();
                     break;
                 case 0:
-                    System.out.println("Thank you for visiting our Zoo, see you again soon");
+                    System.out.println("Thank you for visiting our Zoo, see you again soon!");
                     break;
                 default:
                     System.out.println("Unexpected value");
             }
         } while (number!=0);
+
     }
 }
 
